@@ -1,0 +1,6 @@
+1. InnoDB
+2. MyISAM
+3. MEMORY
+4. ARCHIVE
+5. NDB
+6. CSV

@@ -1,0 +1,10 @@
+1. 请求打到DispatcherServlet
+2. DispatcherServlet收到请求，调用HandlerMapping
+3. HandlerMapping返回一个执行链给DispatchServlet
+4. DispatcherServlet调用HandlerAdapter
+5. HandlerAdapter调用具体的处理器
+6. 处理器返回ModelAndView给HanderAdapter，再返回给DispatcherServlet
+7. DispatchServlet将ModelAndView传给ViewReslover
+8. ViewResolver解析后返回具体的View
+9. DippatcherServlet根据View进行渲染
+10. DispatcherServlet响应response

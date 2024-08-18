@@ -1,0 +1,2 @@
+1. countDownLatch不可重用，cyclebarriar可重用
+2. CyclicBarrier：还可以指定一个`Runnable`任务，当所有线程都到达屏障时执行该任务。适用于在所有线程到达屏障点后需要做一些额外操作的场景。

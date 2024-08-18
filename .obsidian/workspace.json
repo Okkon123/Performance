@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "0fc77c4e86240181",
+    "type": "split",
+    "children": [
+      {
+        "id": "44a185c055ae27d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dcae42bd242576eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaSE/detail/mind_map.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "49d2b2bc645a91fe",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "image/Pasted image 20240817215441.png"
+              }
+            }
+          },
+          {
+            "id": "9c0745ae4bebf31e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JUC/JUC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "40172121d598a7df",
+    "type": "split",
+    "children": [
+      {
+        "id": "862e1f1f74227705",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75a4cfac3e6b9f52",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "750f21b28993a401",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "70fe86d638e55ff0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9da9cf16199561cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8b6c555eb9cbc8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "87dbc7333635def5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "JUC/JUC.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "10078bac1fc0db3d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "JUC/JUC.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "07cae08781e00971",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bb406c4ae4a10f66",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "JUC/JUC.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "9c0745ae4bebf31e",
+  "lastOpenFiles": [
+    "JUC/detail/乐观锁和悲观锁之间的区别，有哪些实现方式.md",
+    "JUC/JUC.md",
+    "Check List.md",
+    "image/Pasted image 20240818235644.png",
+    "JUC/detail/ThreadLocal有什么问题.md",
+    "JUC/detail/介绍一下线程池.md",
+    "JUC/detail/AQS核心的方法.md",
+    "JUC/detail/线程池工作流程.md",
+    "JUC/detail/拒绝策略有哪些.md",
+    "image/Pasted image 20240818235619.png",
+    "JUC/detail/线程池等待队列有哪些.md",
+    "image/Pasted image 20240818235601.png",
+    "JUC/detail/countdownlatch和cyclebarriar之间的区别.md",
+    "JUC/detail/线程池参数有哪些.md",
+    "JUC/detail/线程池的原理，解决了什么问题.md",
+    "JUC/detail/怎么进行父子进程之间的信息传递.md",
+    "JUC/detail/介绍一下ThreadLocal.md",
+    "JUC/detail/CAS本身有什么问题.md",
+    "JUC/detail/介绍一下CAS.md",
+    "JUC/detail/介绍一下AQS.md",
+    "JUC/detail/介绍一下synchronized升级过程.md",
+    "JUC/detail/volatile关键字的理解.md",
+    "JUC/detail/线程处于什么状态在runnable状态.md",
+    "JUC/detail/线程有哪些状态.md",
+    "JUC/detail/什么是线程，进程和线程之间的区别与联系.md",
+    "ThreadLocal.md",
+    "JUC/detail/Java提供了哪些锁.md",
+    "JUC/detail/ReentrantLock公平_非公平实现原理.md",
+    "JUC/detail/synchronized实现原理.md",
+    "高并发/detail",
+    "高并发",
+    "image",
+    "image/Pasted image 20240817215441.png",
+    "NetWork/detail",
+    "NetWork",
+    "JUC/detail",
+    "JVM/detail",
+    "Redis/detail",
+    "MySQL/detail",
+    "Spring/detail"
+  ]
+}

@@ -1,0 +1,2 @@
+1. 处理@Autowired注解： Spring会在初始化Bean的时候，检查类中的所有字段和方法。如果字段或方法上有`@Autowired`注解，Spring会尝试自动装配这些依赖。
+2. 在Bean初始化阶段，会调用doCreateBean()方法，在doCreateBean()方法中会调用populateBean()，populateBean()会调用两次后置处理器，第一次判断是否需要属性填充，如果需要则第二次调用Bean后置处理器AutowiredAnnotationBeanPostProcessor的postProcessPropertyValues()方法，该方法会进行@Autowired注解的解析，实现自动装配。

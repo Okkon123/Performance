@@ -1,0 +1,1 @@
+LinkedList基于节点 Node 实现，每个Node中有指向前后Node指针。

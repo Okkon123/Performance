@@ -1,0 +1,14 @@
+1. Bean的生命周期主要依赖Spring中的两个类
+	1. AbstractAutowireCapableBeanFactory负责创建
+		1. 实例化
+		2. 设置属性
+		3. 是否有实现了Aware接口
+		4. BeanPostProcessors前置处理
+		5. 是否实现initializingBean
+		6. 是否自定义init-methd
+		7. BeanPostProcessors后置处理
+		8. 注册Destruction回调
+	2. 正常使用
+	3. DisposableBeanAdapter负责销毁。
+		1. 是否实现DisposableBean接口
+		2. 是否自定义的destroy-method
