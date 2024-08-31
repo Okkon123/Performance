@@ -159,6 +159,9 @@ java使用volitile保障了可见性
 6. 满了看线程数是否小于最大线程数
 7. 小于则增加线程
 8. 否则拒绝
+##### [[线程池提交execute和submit有什么区别]]
+1. execute用于提交不需要返回值的任务
+2. submit用于提交需要返回值的任务，线程池会返回一个future类型的对象。
 
 #### 并发工具类
 ##### [[countdownlatch和cyclebarriar之间的区别]]

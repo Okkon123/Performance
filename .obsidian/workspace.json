@@ -35,14 +35,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JUC/JUC.md",
+                "file": "高并发/高并发.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "02fc2be995069f56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JVM/JVM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d55f2c89e5ebb714",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JUC/detail/线程池提交execute和submit有什么区别.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -92,7 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 219.5
   },
   "right": {
     "id": "9da9cf16199561cc",
@@ -108,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JUC/JUC.md",
+                "file": "JVM/JVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JUC/JUC.md",
+                "file": "JVM/JVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JUC/JUC.md"
+                "file": "JVM/JVM.md"
               }
             }
           }
@@ -157,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 296.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,50 +190,51 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "9c0745ae4bebf31e",
+  "active": "02fc2be995069f56",
   "lastOpenFiles": [
-    "JUC/detail/乐观锁和悲观锁之间的区别，有哪些实现方式.md",
     "JUC/JUC.md",
-    "Check List.md",
-    "image/Pasted image 20240818235644.png",
-    "JUC/detail/ThreadLocal有什么问题.md",
-    "JUC/detail/介绍一下线程池.md",
-    "JUC/detail/AQS核心的方法.md",
-    "JUC/detail/线程池工作流程.md",
-    "JUC/detail/拒绝策略有哪些.md",
-    "image/Pasted image 20240818235619.png",
-    "JUC/detail/线程池等待队列有哪些.md",
-    "image/Pasted image 20240818235601.png",
-    "JUC/detail/countdownlatch和cyclebarriar之间的区别.md",
-    "JUC/detail/线程池参数有哪些.md",
-    "JUC/detail/线程池的原理，解决了什么问题.md",
-    "JUC/detail/怎么进行父子进程之间的信息传递.md",
-    "JUC/detail/介绍一下ThreadLocal.md",
-    "JUC/detail/CAS本身有什么问题.md",
-    "JUC/detail/介绍一下CAS.md",
-    "JUC/detail/介绍一下AQS.md",
-    "JUC/detail/介绍一下synchronized升级过程.md",
     "JUC/detail/volatile关键字的理解.md",
-    "JUC/detail/线程处于什么状态在runnable状态.md",
-    "JUC/detail/线程有哪些状态.md",
-    "JUC/detail/什么是线程，进程和线程之间的区别与联系.md",
-    "ThreadLocal.md",
-    "JUC/detail/Java提供了哪些锁.md",
-    "JUC/detail/ReentrantLock公平_非公平实现原理.md",
+    "JVM/JVM.md",
+    "JUC/detail/线程池提交execute和submit有什么区别.md",
+    "JUC/detail/拒绝策略有哪些.md",
     "JUC/detail/synchronized实现原理.md",
-    "高并发/detail",
-    "高并发",
-    "image",
+    "JUC/detail/介绍一下synchronized升级过程.md",
+    "JVM/detail/完整的垃圾回收流程.md",
+    "Check List.md",
+    "JVM/detail/介绍一下G1垃圾回收器.md",
+    "JVM/detail/介绍一下JVM的垃圾回收器.md",
+    "MySQL/detail/索引的数据机构.md",
+    "JavaSE/detail/String为什么不可变.md",
+    "JavaSE/detail/HashMap实现原理.md",
+    "Project/Hello.md",
+    "item.md",
+    "MQ/detail/Kafka和RocketMQ选型.md",
+    "ShortLink.md",
+    "Linux/Linux.md",
+    "Linux/detail/Top命令详解.md",
+    "分布式/分布式.md",
+    "分布式/detail/雪花算法.md",
+    "分布式/detail",
+    "分布式",
+    "高并发/高并发.md",
+    "JUC/detail/线程池参数如何选择.md",
+    "Linux/detail",
+    "Linux",
+    "MQ/MQ.md",
+    "JUC/detail/线程池参数有哪些.md",
+    "MQ/detail",
+    "MQ",
     "image/Pasted image 20240817215441.png",
-    "NetWork/detail",
-    "NetWork",
-    "JUC/detail",
-    "JVM/detail",
-    "Redis/detail",
-    "MySQL/detail",
-    "Spring/detail"
+    "image/Pasted image 20240818235644.png",
+    "image/Pasted image 20240818235619.png",
+    "image/Pasted image 20240818235601.png",
+    "Es",
+    "Project",
+    "Check",
+    "高并发/detail"
   ]
 }
