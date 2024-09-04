@@ -20,16 +20,6 @@
             }
           },
           {
-            "id": "49d2b2bc645a91fe",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "image/Pasted image 20240817215441.png"
-              }
-            }
-          },
-          {
             "id": "9c0745ae4bebf31e",
             "type": "leaf",
             "state": {
@@ -47,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JVM/JVM.md",
+                "file": "JUC/detail/介绍一下synchronized升级过程.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d7d3e03f190dfe26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Redis/detail/介绍一下Redis的过期删除.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "弱引用",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -132,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JVM/JVM.md",
+                "file": "JUC/detail/介绍一下synchronized升级过程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JVM/JVM.md",
+                "file": "JUC/detail/介绍一下synchronized升级过程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JVM/JVM.md"
+                "file": "JUC/detail/介绍一下synchronized升级过程.md"
               }
             }
           }
@@ -196,39 +198,39 @@
   },
   "active": "02fc2be995069f56",
   "lastOpenFiles": [
-    "JUC/JUC.md",
-    "JUC/detail/volatile关键字的理解.md",
-    "JVM/JVM.md",
-    "JUC/detail/线程池提交execute和submit有什么区别.md",
-    "JUC/detail/拒绝策略有哪些.md",
-    "JUC/detail/synchronized实现原理.md",
-    "JUC/detail/介绍一下synchronized升级过程.md",
-    "JVM/detail/完整的垃圾回收流程.md",
     "Check List.md",
-    "JVM/detail/介绍一下G1垃圾回收器.md",
-    "JVM/detail/介绍一下JVM的垃圾回收器.md",
-    "MySQL/detail/索引的数据机构.md",
-    "JavaSE/detail/String为什么不可变.md",
-    "JavaSE/detail/HashMap实现原理.md",
-    "Project/Hello.md",
-    "item.md",
-    "MQ/detail/Kafka和RocketMQ选型.md",
+    "JUC/detail/什么是线程，进程和线程之间的区别与联系.md",
+    "Full GC条件.md",
+    "Young GC条件.md",
+    "JVM/detail/完整的垃圾回收流程.md",
+    "JVM/detail/G1的本身瓶颈在哪.md",
+    "JVM/detail/垃圾回收哪几个步骤要stop the world.md",
+    "Redis/detail/进程持有分布式锁挂了，锁永远不会释放吗.md",
+    "Redis/detail/redis除了内存之外还有什么优势.md",
+    "Redis/detail/Redis为什么快.md",
+    "JVM/detail/类的加载时机.md",
     "ShortLink.md",
-    "Linux/Linux.md",
-    "Linux/detail/Top命令详解.md",
-    "分布式/分布式.md",
-    "分布式/detail/雪花算法.md",
+    "item.md",
+    "JVM/detail/介绍一下JVM的垃圾回收器.md",
+    "JVM/detail/如何实现类的热更新.md",
+    "MQ/detail/Kafka为什么快.md",
+    "JVM/detail/介绍一下JVM怎么进行存活对象分析.md",
+    "JVM/detail/jdk1.8内存结构.md",
+    "为什么RPC更快.md",
+    "什么时候使用RPC调用，什么时候使用HTTP调用.md",
+    "调用函数时，JVM中发送了什么.md",
+    "Redis/detail/redis怎么对复杂类型进行序列化.md",
+    "穿透、击穿、雪崩.md",
+    "JavaSE/detail/Java有几种基础数据类型.md",
+    "JavaSE/detail/mind_map.md",
+    "image/Pasted image 20240817215441.png",
+    "Redis/detail/redis有哪些集群模式.md",
     "分布式/detail",
     "分布式",
-    "高并发/高并发.md",
-    "JUC/detail/线程池参数如何选择.md",
     "Linux/detail",
     "Linux",
-    "MQ/MQ.md",
-    "JUC/detail/线程池参数有哪些.md",
     "MQ/detail",
     "MQ",
-    "image/Pasted image 20240817215441.png",
     "image/Pasted image 20240818235644.png",
     "image/Pasted image 20240818235619.png",
     "image/Pasted image 20240818235601.png",

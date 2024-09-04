@@ -1,0 +1,6 @@
+1. 开放地址法 (Open Addressing)
+2. 链地址法 (Chaining)
+3. 再哈希 (Rehashing)
+4. 分离链接法 (Separate Chaining)
+5. 动态扩容 (Dynamic Resizing)
+6. 辅助哈希表 (Secondary Hash Table)
