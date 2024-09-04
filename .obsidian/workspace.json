@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Check/Hello.md",
+                "file": "Check/Redis.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Check/Hello.md",
+                "file": "Check/Redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Check/Hello.md",
+                "file": "Check/Redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Check/Hello.md"
+                "file": "Check/Redis.md"
               }
             }
           }
@@ -162,6 +162,7 @@
   },
   "active": "854ec2d714ee2b8b",
   "lastOpenFiles": [
+    "Check/Hello.md",
     "Check List.md",
     "item.md",
     "mind_map.md",
@@ -188,7 +189,6 @@
     "Redis/detail/Redis为什么快.md",
     "JVM/detail/类的加载时机.md",
     "JVM/detail/介绍一下JVM的垃圾回收器.md",
-    "JVM/detail/如何实现类的热更新.md",
     "image/Pasted image 20240817215441.png",
     "分布式/detail",
     "分布式",
