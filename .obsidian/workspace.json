@@ -8,67 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dcae42bd242576eb",
+            "id": "a6ba930177c29b58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaSE/detail/mind_map.md",
+                "file": "Check/JVM.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9c0745ae4bebf31e",
+            "id": "854ec2d714ee2b8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "高并发/高并发.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "02fc2be995069f56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JUC/detail/介绍一下synchronized升级过程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7d3e03f190dfe26",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Redis/detail/介绍一下Redis的过期删除.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d55f2c89e5ebb714",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JUC/detail/线程池提交execute和submit有什么区别.md",
+                "file": "Check/Hello.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "弱引用",
+                "query": "mind_",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JUC/detail/介绍一下synchronized升级过程.md",
+                "file": "Check/Hello.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JUC/detail/介绍一下synchronized升级过程.md",
+                "file": "Check/Hello.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JUC/detail/介绍一下synchronized升级过程.md"
+                "file": "Check/Hello.md"
               }
             }
           }
@@ -196,12 +160,26 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "02fc2be995069f56",
+  "active": "854ec2d714ee2b8b",
   "lastOpenFiles": [
     "Check List.md",
+    "item.md",
+    "mind_map.md",
+    "ShortLink.md",
+    "Check/MQ.md",
+    "Check/JUC.md",
+    "Check/MQ",
+    "Check/JVM.md",
+    "Check/Redis.md",
+    "Check/MySQL.md",
+    "Check/Spring.md",
+    "Check/JavaSE.md",
+    "JUC/detail/ConcurrentHashMap.md",
+    "JavaSE/detail/mind_map.md",
+    "JVM/detail/Young GC条件.md",
+    "JVM/detail/Full GC条件.md",
+    "JUC/detail/介绍一下synchronized升级过程.md",
     "JUC/detail/什么是线程，进程和线程之间的区别与联系.md",
-    "Full GC条件.md",
-    "Young GC条件.md",
     "JVM/detail/完整的垃圾回收流程.md",
     "JVM/detail/G1的本身瓶颈在哪.md",
     "JVM/detail/垃圾回收哪几个步骤要stop the world.md",
@@ -209,22 +187,9 @@
     "Redis/detail/redis除了内存之外还有什么优势.md",
     "Redis/detail/Redis为什么快.md",
     "JVM/detail/类的加载时机.md",
-    "ShortLink.md",
-    "item.md",
     "JVM/detail/介绍一下JVM的垃圾回收器.md",
     "JVM/detail/如何实现类的热更新.md",
-    "MQ/detail/Kafka为什么快.md",
-    "JVM/detail/介绍一下JVM怎么进行存活对象分析.md",
-    "JVM/detail/jdk1.8内存结构.md",
-    "为什么RPC更快.md",
-    "什么时候使用RPC调用，什么时候使用HTTP调用.md",
-    "调用函数时，JVM中发送了什么.md",
-    "Redis/detail/redis怎么对复杂类型进行序列化.md",
-    "穿透、击穿、雪崩.md",
-    "JavaSE/detail/Java有几种基础数据类型.md",
-    "JavaSE/detail/mind_map.md",
     "image/Pasted image 20240817215441.png",
-    "Redis/detail/redis有哪些集群模式.md",
     "分布式/detail",
     "分布式",
     "Linux/detail",
@@ -236,7 +201,6 @@
     "image/Pasted image 20240818235601.png",
     "Es",
     "Project",
-    "Check",
-    "高并发/detail"
+    "Check"
   ]
 }
