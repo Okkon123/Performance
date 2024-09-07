@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/detail/Bean的生命周期.md",
+                "file": "Check List.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/detail/Bean的生命周期.md",
+                "file": "Check List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/detail/Bean的生命周期.md",
+                "file": "Check List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/detail/Bean的生命周期.md"
+                "file": "Check List.md"
               }
             }
           }
@@ -173,9 +173,9 @@
   },
   "active": "43c5de9280934d8f",
   "lastOpenFiles": [
+    "Spring/detail/Bean的生命周期.md",
     "Check List.md",
     "为什么不建议使用基于字段注入.md",
-    "Spring/detail/Bean的生命周期.md",
     "Spring/detail/介绍一下IOC.md",
     "Spring/detail/Spring的启动流程.md",
     "JavaSE/detail/字符串常量池_运行时常量池_类常量池之间的联系.md",
