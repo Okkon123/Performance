@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Check/Redis.md",
+                "file": "Check List.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "43c5de9280934d8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spring/detail/Bean的生命周期.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Check/Redis.md",
+                "file": "Spring/detail/Bean的生命周期.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Check/Redis.md",
+                "file": "Spring/detail/Bean的生命周期.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Check/Redis.md"
+                "file": "Spring/detail/Bean的生命周期.md"
               }
             }
           }
@@ -156,39 +168,38 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "pkmer:Open Pkmer Market": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "854ec2d714ee2b8b",
+  "active": "43c5de9280934d8f",
   "lastOpenFiles": [
-    "Check/Hello.md",
     "Check List.md",
+    "为什么不建议使用基于字段注入.md",
+    "Spring/detail/Bean的生命周期.md",
+    "Spring/detail/介绍一下IOC.md",
+    "Spring/detail/Spring的启动流程.md",
+    "JavaSE/detail/字符串常量池_运行时常量池_类常量池之间的联系.md",
+    "JavaSE/detail/intern()的原理.md",
+    "JavaSE/detail/String为什么不可变.md",
+    "面试反问.md",
     "item.md",
     "mind_map.md",
     "ShortLink.md",
-    "Check/MQ.md",
-    "Check/JUC.md",
-    "Check/MQ",
+    "MQ/detail/RocketMQ为什么比Kafka更可靠.md",
+    "MQ/detail/什么是Kafka的稀疏索引.md",
+    "MQ/detail/怎么实现顺序消费.md",
+    "MQ/detail/消息队列堆积了如何解决.md",
+    "MQ/detail/Kafka的刷盘过程.md",
+    "MQ/detail/消息确认方式.md",
+    "MQ/detail/消息推拉模式.md",
+    "MQ/detail/消息存储.md",
+    "MQ/detail/MQ刷盘方式.md",
     "Check/JVM.md",
+    "Check/Hello.md",
+    "Spring/detail/Spring的事务种类.md",
     "Check/Redis.md",
-    "Check/MySQL.md",
-    "Check/Spring.md",
-    "Check/JavaSE.md",
-    "JUC/detail/ConcurrentHashMap.md",
-    "JavaSE/detail/mind_map.md",
-    "JVM/detail/Young GC条件.md",
-    "JVM/detail/Full GC条件.md",
-    "JUC/detail/介绍一下synchronized升级过程.md",
-    "JUC/detail/什么是线程，进程和线程之间的区别与联系.md",
-    "JVM/detail/完整的垃圾回收流程.md",
-    "JVM/detail/G1的本身瓶颈在哪.md",
-    "JVM/detail/垃圾回收哪几个步骤要stop the world.md",
-    "Redis/detail/进程持有分布式锁挂了，锁永远不会释放吗.md",
-    "Redis/detail/redis除了内存之外还有什么优势.md",
-    "Redis/detail/Redis为什么快.md",
-    "JVM/detail/类的加载时机.md",
-    "JVM/detail/介绍一下JVM的垃圾回收器.md",
+    "Check/MQ.md",
+    "Check/MQ",
     "image/Pasted image 20240817215441.png",
     "分布式/detail",
     "分布式",
