@@ -1,0 +1,46 @@
+`EXPLAIN` 是 MySQL 提供的工具，用于分析 SQL 查询的执行计划。通过查看 `EXPLAIN` 输出的每一列，我们可以更好地理解查询是如何执行的，并据此进行优化。
+
+`EXPLAIN` 输出的列根据 MySQL 版本可能会稍有不同，但常见的列及其含义如下：
+
+|列名|含义|
+|---|---|
+|**id**|查询中操作的唯一标识符。`id` 值相同表示可以并行执行，`id` 不同的表示按顺序执行（`id` 越大优先执行）。|
+|**select_type**|查询的类型，表示每个 `SELECT` 子句是简单查询、子查询还是其他类型的查询。常见值包括：<br> - `SIMPLE`: 简单查询，不包括子查询或 `UNION`<br> - `PRIMARY`: 最外层查询<br> - `SUBQUERY`: 子查询<br> - `DERIVED`: 派生表（子查询中的 `FROM` 子句产生的临时表）<br> - `UNION`: `UNION` 中的第二个或后续的 `SELECT` 语句<br> - `DEPENDENT SUBQUERY`: 子查询，依赖于外部查询|
+|**table**|当前执行的表名或别名。|
+|**partitions**|查询涉及的分区（如果有分区表）。|
+|**type**|表示查询中使用的访问类型（访问表的方式）。访问类型的优劣顺序（从好到差）为：<br> - `system`: 表只有一行<br> - `const`: 表示通过索引查找到的常量（通常是 `PRIMARY KEY` 或 `UNIQUE` 索引）<br> - `eq_ref`: 对于每个来自前一张表的行，最多匹配一行<br> - `ref`: 返回匹配某个非唯一索引的所有行<br> - `range`: 通过索引范围扫描<br> - `index`: 全索引扫描<br> - `ALL`: 全表扫描|
+|**possible_keys**|查询中可以使用的索引。|
+|**key**|实际使用的索引。如果没有使用索引，则显示 `NULL`。|
+|**key_len**|使用的索引的长度（以字节为单位）。该值越小，表示匹配字段越少（越高效）。|
+|**ref**|显示索引匹配的列或常量，通常是与表中的索引列进行比较的列。|
+|**rows**|MySQL 估计要读取的行数。这个值只是一个估计值，不是精确值。|
+|**filtered**|表示满足查询条件的数据占总数据的百分比。值为 100 说明所有记录都符合条件。该列可以帮助我们了解数据被过滤的程度。|
+|**Extra**|额外的信息，描述了执行计划的其他细节。常见值包括：<br> - `Using where`: 使用了 `WHERE` 子句过滤记录<br> - `Using index`: 查询仅使用索引，不需要访问表的数据行（覆盖索引）<br> - `Using filesort`: 需要额外的排序步骤，通常意味着性能较差<br> - `Using temporary`: 使用了临时表，通常发生在排序或分组操作时|
+
+### `EXPLAIN` 输出示例
+
+sql
+
+复制
+
+```
+EXPLAIN SELECT * FROM employees WHERE employee_id = 1001;
+```
+
+示例结果：
+
+|id|select_type|table|type|possible_keys|key|key_len|ref|rows|filtered|Extra|
+|---|---|---|---|---|---|---|---|---|---|---|
+|1|SIMPLE|employees|const|PRIMARY|PRIMARY|4|const|1|100.00|NULL|
+
+### 常用列解释
+
+- **id**: 1 表示这是一个简单查询，查询的唯一标识。
+- **select_type**: `SIMPLE`，表示没有子查询或者联合查询。
+- **table**: `employees` 表示要查询的表。
+- **type**: `const`，表示通过索引查找了一个常量值，效率较高。
+- **key**: `PRIMARY`，表示使用了主键索引。
+- **rows**: MySQL 估计需要扫描 1 行。
+- **Extra**: `NULL`，没有额外的操作。
+
+通过 `EXPLAIN` 的输出，我们可以判断查询是否高效、是否使用了索引、是否需要优化等。
