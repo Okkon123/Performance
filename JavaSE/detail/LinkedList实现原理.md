@@ -1,1 +1,1 @@
-LinkedList基于节点 Node 实现，每个Node中有指向前后Node指针。
+LinkedList底层是一个链表，基于节点 Node 实现，每个Node中有指向前后Node指针，寻址时遍历节点寻址，插入删除很方便

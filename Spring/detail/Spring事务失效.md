@@ -1,0 +1,12 @@
+1. 代理失效
+	1. @Transactional应用在非public修饰的方法上
+	2. 同一个类方法调用，导致@Transactional失效
+	3. @Transactional修饰final、static方法
+	4. 没有代理
+2. @Transactional使用错误
+	1. 注解属性propagation设置错误
+	2. 注解属性rollbackFor设置错误
+	3. 用错注解
+3. 异常被手动捕获
+4. 事务中用了多线程
+5. 数据库引擎不支持事务

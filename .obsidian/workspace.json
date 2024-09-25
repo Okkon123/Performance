@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Check List.md",
+                "file": "JUC/detail/线程池等待队列有哪些.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5
+    "width": 200.5
   },
   "right": {
     "id": "9da9cf16199561cc",
@@ -159,7 +159,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 310.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,37 +168,43 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "43c5de9280934d8f",
+  "active": "854ec2d714ee2b8b",
   "lastOpenFiles": [
-    "面试反问.md",
+    "JVM/detail/怎么破坏双亲委派机制.md",
     "Check List.md",
-    "JVM/detail/JVM命令.md",
-    "JUC/detail/交替打印.md",
-    "MySQL/detail/explain命令解释.md",
-    "Redis/detail/如何实现redis和DB之间的缓存一致性.md",
-    "JUC/JUC.md",
-    "MySQL/detail/为什么不推荐join.md",
-    "Spring/detail/Spring的事务在多线程下生效吗.md",
-    "item.md",
-    "mind_map.md",
-    "ShortLink.md",
-    "高并发/高并发.md",
-    "分布式/分布式.md",
-    "JUC/detail/线程池等待队列有哪些.md",
-    "MQ/detail/Kafka的重平衡机制.md",
-    "Linux/detail/CPU负载和CPU使用率.md",
-    "Check/JVM.md",
-    "Spring/detail/为什么不用二级缓存解决循环依赖问题.md",
-    "JUC/detail/介绍一下synchronized升级过程.md",
-    "JVM/detail/类的卸载时机.md",
-    "JVM/detail/介绍一下JVM的内存区域.md",
+    "面试反问.md",
+    "Redis/detail/redis怎么对复杂类型进行序列化.md",
     "Redis/detail/介绍一下Redis的内存淘汰.md",
     "Redis/detail/介绍一下Redis的过期删除.md",
-    "Spring/detail/SpringBoot自动配置原理.md",
-    "Spring/detail/SpringBoot的启动流程.md",
+    "Redis/detail/穿透、击穿、雪崩.md",
+    "Redis/detail/Redis为什么快.md",
+    "Check/Hello.md",
+    "分布式/detail/负载均衡算法.md",
+    "JUC/detail/ConcurrentHashMap.md",
+    "JVM/detail/完整的垃圾回收流程.md",
+    "JVM/detail/介绍一下JVM的垃圾回收器.md",
+    "JVM/detail/介绍一下G1垃圾回收器.md",
+    "JVM/detail/为什么元空间要存储在直接内存.md",
+    "Redis/detail/分布式锁的使用场景.md",
+    "Redis/detail/Redis和Zookeeper分布式锁区别.md",
+    "Redis/detail/Redis的IO多路复用.md",
+    "JUC/detail/线程池等待队列有哪些.md",
+    "Check/JVM.md",
+    "MySQL/detail/介绍一下undo log.md",
+    "MySQL/detail/索引优化.md",
+    "JavaSE/detail/StringBuffer与StringBuilder.md",
+    "JavaSE/detail/String为什么不可变.md",
+    "JavaSE/detail/HashMap实现原理.md",
+    "JavaSE/detail/ArrayList实现原理.md",
+    "NetWork/detail",
+    "OS/detail",
+    "OS",
+    "image/Pasted image 20240915001549.png",
+    "image/Pasted image 20240914230403.png",
     "Check/MQ",
     "image/Pasted image 20240817215441.png",
     "分布式/detail",
@@ -209,9 +215,6 @@
     "MQ",
     "image/Pasted image 20240818235644.png",
     "image/Pasted image 20240818235619.png",
-    "image/Pasted image 20240818235601.png",
-    "Es",
-    "Project",
-    "Check"
+    "image/Pasted image 20240818235601.png"
   ]
 }
