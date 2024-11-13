@@ -16,7 +16,9 @@
                 "file": "Check/JVM.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "JVM"
             }
           },
           {
@@ -25,10 +27,52 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "item.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "item"
+            }
+          },
+          {
+            "id": "ace0c899cff75201",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Check List.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Check List"
+            }
+          },
+          {
+            "id": "c5157ec6326ec979",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Check List.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Check List"
+            }
+          },
+          {
+            "id": "2a49f90d9a3e6e67",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
             }
           },
           {
@@ -37,14 +81,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JUC/detail/线程池等待队列有哪些.md",
+                "file": "Check/Hello.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Hello"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -64,7 +110,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -79,7 +127,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -87,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -110,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Check List.md",
+                "file": "item.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +170,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "item 的反向链接列表"
             }
           },
           {
@@ -127,10 +181,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Check List.md",
+                "file": "item.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "item 的出链列表"
             }
           },
           {
@@ -141,7 +197,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -150,8 +208,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Check List.md"
-              }
+                "file": "item.md"
+              },
+              "icon": "lucide-list",
+              "title": "item 的大纲"
             }
           }
         ],
@@ -159,7 +219,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5
+    "width": 310.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,34 +233,34 @@
       "pkmer:Open Pkmer Market": false
     }
   },
-  "active": "854ec2d714ee2b8b",
+  "active": "2a49f90d9a3e6e67",
   "lastOpenFiles": [
-    "JVM/detail/怎么破坏双亲委派机制.md",
+    "tmp.md",
     "Check List.md",
-    "面试反问.md",
-    "Redis/detail/redis怎么对复杂类型进行序列化.md",
-    "Redis/detail/介绍一下Redis的内存淘汰.md",
-    "Redis/detail/介绍一下Redis的过期删除.md",
-    "Redis/detail/穿透、击穿、雪崩.md",
     "Redis/detail/Redis为什么快.md",
-    "Check/Hello.md",
-    "分布式/detail/负载均衡算法.md",
+    "JUC/detail/介绍一下CAS.md",
+    "JUC/detail/介绍一下synchronized升级过程.md",
     "JUC/detail/ConcurrentHashMap.md",
-    "JVM/detail/完整的垃圾回收流程.md",
-    "JVM/detail/介绍一下JVM的垃圾回收器.md",
-    "JVM/detail/介绍一下G1垃圾回收器.md",
-    "JVM/detail/为什么元空间要存储在直接内存.md",
-    "Redis/detail/分布式锁的使用场景.md",
-    "Redis/detail/Redis和Zookeeper分布式锁区别.md",
-    "Redis/detail/Redis的IO多路复用.md",
-    "JUC/detail/线程池等待队列有哪些.md",
-    "Check/JVM.md",
-    "MySQL/detail/介绍一下undo log.md",
-    "MySQL/detail/索引优化.md",
-    "JavaSE/detail/StringBuffer与StringBuilder.md",
-    "JavaSE/detail/String为什么不可变.md",
-    "JavaSE/detail/HashMap实现原理.md",
-    "JavaSE/detail/ArrayList实现原理.md",
+    "MQ/detail/Kafka和RocketMQ架构.md",
+    "JVM/detail/类加载分几个阶段.md",
+    "JVM/detail/调用函数时，JVM中发生了什么.md",
+    "JVM/detail/类的加载时机.md",
+    "JavaSE/detail/接口和抽象类区别.md",
+    "JVM/detail/介绍一下JVM怎么进行存活对象分析.md",
+    "ShortLink.md",
+    "Spring/detail/Spring的事务种类.md",
+    "JVM/detail/垃圾回收哪几个步骤要stop the world.md",
+    "JVM/detail/对象从new到销毁之间经历的过程.md",
+    "MQ/detail/MQ刷盘方式.md",
+    "JUC/detail/交替打印.md",
+    "JUC/detail/介绍一下AQS.md",
+    "JavaSE/detail/Cookie、Session、JWT.md",
+    "MQ/detail/什么时候使用RPC，什么时候使用MQ.md",
+    "Check/Hello.md",
+    "mind_map.md",
+    "item.md",
+    "面试反问.md",
+    "Spring/detail/Bean的生命周期.md",
     "NetWork/detail",
     "OS/detail",
     "OS",

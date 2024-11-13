@@ -138,3 +138,26 @@
 	- 磁盘大小/IO
 	- 网络带宽/IO
 	- 线程数
+- MySQL
+	- 存储
+		- 行页区段
+		- B+树
+		- Buffer Pool
+	- 读取
+		- 索引
+			- 主键索引
+			- 非主键索引
+		- MVCC
+		- order by
+			- in memery
+			- filesort
+	- 日志
+		- undolog
+		- binlog
+		- redolog
+	- 事务
+		- 隔离级别
+		- 锁种类和方式
+	- 分布式
+		- 读写分离
+		- 两阶段提交
